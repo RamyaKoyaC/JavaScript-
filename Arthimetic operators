@@ -1,0 +1,36 @@
+```
+
+/**
+*   Calculate the area of a rectangle.
+*
+*   length: The length of the rectangle.
+*   width: The width of the rectangle.
+*   
+*	Return a number denoting the rectangle's area.
+**/
+function getArea(length, width) {
+    var area = (length * width); 
+    // Write your code here
+    
+    return area;
+}
+
+/**
+*   Calculate the perimeter of a rectangle.
+*	
+*	length: The length of the rectangle.
+*   width: The width of the rectangle.
+*   
+*	Return a number denoting the perimeter of a rectangle.
+**/
+function getPerimeter(length, width) {
+    var perimeter = 2 * (length + width);
+    // Write your code here
+    
+    return perimeter;
+}
+
+getArea(3, 4.5);
+getPerimeter(3, 4.5);
+
+```
