@@ -10,3 +10,18 @@ function createEmpObj(firstName, lastName, gender, designation) {
 
 var emp3 = createEmpObj("ramya", "koya", "f", "developer");
 
+## by using constructor function way 
+
+
+function createEmpObj(firstName, lastName, gender, designation) {
+  
+   this.firstName = firstName;
+   this.lastName = lastName;
+   this.gender = gender;
+   this.designation = designation; 
+   
+}
+
+var emp3 = new createEmpObj("ramya", "koya", "f", "developer");
+
+
