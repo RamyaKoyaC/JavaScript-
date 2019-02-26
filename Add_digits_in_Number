@@ -1,0 +1,10 @@
+function addTwoDigits(n) {
+  var a = n%10;
+  var b = Math.floor(n/10)
+  var c= a+b; 
+  return c; 
+}
+
+
+
+addTwoDigits(29);
