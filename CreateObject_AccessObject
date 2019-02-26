@@ -1,0 +1,12 @@
+
+function createEmpObj(firstName, lastName, gender, designation) {
+   var obj = {};
+   obj.firstName = firstName;
+   obj.lastName = lastName;
+   obj.gender = gender;
+   obj.designation = designation; 
+   return obj;
+}
+
+var emp3 = createEmpObj("ramya", "koya", "f", "developer");
+
