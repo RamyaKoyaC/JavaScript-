@@ -68,4 +68,8 @@ arr1.Length
 
 There is no wait or pause command in JS, but we have callbacks in which setTimeout(Function,time) can be assigned. Here time should be assigned in ms. setTimeout is one of the APIs of Callbacks available in JS. 
 
+```
+setTimeout(fn,1000);
+```
+
 API - Application Programming Interface. 
