@@ -11,3 +11,17 @@ for (i=0; i<10; i++)
   })();
     
   }
+  
+  ##Alternative way like passing as an argument
+  
+  var i;
+
+
+for (i=0; i<10; i++)
+  {
+  (function (currentI) {
+  setTimeout(function(){
+  console.log(currentI)}, 1000)  
+  })(i);
+    
+  }
