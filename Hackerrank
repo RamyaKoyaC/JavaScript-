@@ -1,0 +1,7 @@
+function lastLetters(word) {
+
+    var word1 = word.slice(-2);
+    var word2 = word1.split('').reverse().join(' ');
+
+   
+    return word2; 
